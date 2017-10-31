@@ -1,12 +1,63 @@
 header{
+	margin: 10px; 
 	text-align: center;
-	color: indigo;
+	font-family: 'Arial', sans-serif;
+	background-color: #E7CB78;
 }
-h2{
+
+article{
+	margin: 10px;
 	text-align: center;
+	font-family: 'Arial', sans-serif;
+	background-color: #FBEEE0;
 }
-li{
-	font-style: italic;
-	color: indigo;
-	
+
+.avatar{
+	margin: 5px;
+	width: 10%;
+}
+
+.article-title{
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.contact-info{
+	font-size: 16px;
+	background-color: #FBD9B4;
+}
+
+.social{
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.skill-set{
+	overflow: hidden;
+}
+
+.skill-block{
+	font-size: 16px;
+	font-weight: bold;
+	display:inline-block;
+	margin: 10px;
+	background-color: #E7CB78;
+	width: 300px;
+}
+
+.skill-icon{
+	width: 100px;
+	margin-bottom: 10px;
+
+}
+
+.sb-title{
+	font-size: 18px;
+	margin: 10px;
+}
+
+#contact-icon{
+	font-size: 30px;
 }
